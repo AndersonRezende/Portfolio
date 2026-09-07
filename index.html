@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anderson Rezende — Interactive Developer Portfolio">
+  <title>Anderson OS</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/desktop.css">
+</head>
+
+<body>
+  <main id="desktop" class="desktop">
+
+    <!-- Ubuntu-like top bar -->
+    <header class="top-bar">
+      <div class="top-bar-left">
+        <button class="top-bar-item applications-button" type="button">
+          <i class="bi bi-grid-3x3-gap-fill"></i>
+          <span>Applications</span>
+        </button>
+      </div>
+
+      <div class="top-bar-center">
+        <span id="clock" aria-label="Horário atual">21:34</span>
+      </div>
+
+      <div class="top-bar-right">
+        <button class="top-bar-icon" aria-label="Rede">
+          <i class="bi bi-diagram-3-fill"></i>
+        </button>
+        <button class="top-bar-icon" aria-label="Volume">
+          <i class="bi bi-volume-up-fill"></i>
+        </button>
+        <button class="top-bar-icon" aria-label="Energia">
+          <i class="bi bi-power"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Desktop icons -->
+    <section class="desktop-icons" aria-label="Aplicações">
+
+      <button class="desktop-icon" type="button" data-app="about">
+        <span class="icon-image icon-user">
+          <i class="bi bi-person-fill"></i>
+        </span>
+        <span>About Me</span>
+      </button>
+
+      <button class="desktop-icon" type="button" data-app="projects">
+        <span class="icon-image icon-folder">
+          <i class="bi bi-folder-fill"></i>
+        </span>
+        <span>Projects</span>
+      </button>
+
+      <button class="desktop-icon" type="button" data-app="terminal">
+        <span class="icon-image icon-terminal">
+          <i class="bi bi-terminal-fill"></i>
+        </span>
+        <span>Terminal</span>
+      </button>
+
+      <button class="desktop-icon" type="button" data-app="resume">
+        <span class="icon-image icon-file">
+          <i class="bi bi-file-earmark-person-fill"></i>
+        </span>
+        <span>Resume</span>
+      </button>
+
+      <button class="desktop-icon" type="button" data-app="github">
+        <span class="icon-image icon-github">
+          <i class="bi bi-github"></i>
+        </span>
+        <span>GitHub</span>
+      </button>
+
+    </section>
+
+    <!-- Home icon -->
+    <button class="home-icon desktop-icon" type="button" data-app="home">
+      <span class="icon-image icon-home">
+        <i class="bi bi-house-door-fill"></i>
+      </span>
+      <span>Home</span>
+    </button>
+
+    <!-- Dock -->
+    <nav class="dock" aria-label="Dock">
+      <button class="dock-item active" type="button" data-app="home" aria-label="Home">
+        <i class="bi bi-house-door-fill"></i>
+      </button>
+
+      <button class="dock-item" type="button" data-app="about" aria-label="About Me">
+        <i class="bi bi-person-fill"></i>
+      </button>
+
+      <button class="dock-item" type="button" data-app="projects" aria-label="Projects">
+        <i class="bi bi-folder-fill"></i>
+      </button>
+
+      <button class="dock-item" type="button" data-app="terminal" aria-label="Terminal">
+        <i class="bi bi-terminal-fill"></i>
+      </button>
+
+      <button class="dock-item" type="button" data-app="resume" aria-label="Resume">
+        <i class="bi bi-file-earmark-person-fill"></i>
+      </button>
+
+      <span class="dock-separator"></span>
+
+      <button class="dock-item" type="button" data-app="github" aria-label="GitHub">
+        <i class="bi bi-github"></i>
+      </button>
+    </nav>
+
+    <!-- Small welcome overlay for now; Phase 2 will turn this into windows -->
+    <div id="welcome" class="welcome">
+      <div class="welcome-content">
+        <div class="welcome-logo">
+          <i class="bi bi-terminal-fill"></i>
+        </div>
+        <h1>Anderson OS</h1>
+        <p>Interactive Developer Portfolio</p>
+        <small>Clique nos ícones para explorar.</small>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/desktop.js"></script>
+</body>
+</html>

@@ -50,21 +50,21 @@ const apps = {
             <div class="info-card">
               <i class="bi bi-code-slash"></i>
               <strong>Backend</strong>
-              <span>Go · PHP · APIs</span>
+              <span>PHP · Go · Python · Java · ShellScript · Kotlin</span>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info-card">
               <i class="bi bi-database"></i>
               <strong>Data</strong>
-              <span>PostgreSQL · SQLite</span>
+              <span>MySql · PostgreSQL · SQLite · Oracle · SQLServer · Redis</span>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info-card">
               <i class="bi bi-boxes"></i>
               <strong>Infra</strong>
-              <span>Docker · Linux · Git</span>
+              <span>Docker · Linux · Git · CI/CD · Nginx</span>
             </div>
           </div>
         </div>
@@ -76,19 +76,17 @@ const apps = {
     title: "About Me",
     icon: "bi-person-fill",
     width: 650,
-    height: 430,
+    height: 540,
     content: `
       <div class="app-content">
-        <h2>About Me</h2>
+        <h2>Sobre</h2>
         <p class="lead">
           Desenvolvedor Backend focado em construir sistemas robustos,
           escaláveis e de alta disponibilidade.
         </p>
 
         <p>
-          Este espaço será usado para apresentar sua trajetória,
-          experiência profissional, princípios de engenharia e interesses
-          técnicos.
+          Desenvolvedor Backend Sênior com mais de 8 anos de experiência em sistemas corporativos, plataformas web e soluções de pagamentos de alta disponibilidade. Atua no desenvolvimento do EBANX Pay, plataforma que processa milhões de transações financeiras diárias em cerca de 15 países. Possui sólida experiência em arquiteturas de software, APIs, sistemas distribuídos, processamento assíncrono e integrações financeiras. Tem domínio de PHP, Domain-Driven Design (DDD), Clean Architecture e Arquitetura Hexagonal, além de participar ativamente de definições arquiteturais, code reviews e mentoring. É orientado a boas práticas de engenharia de software, com foco em desempenho, escalabilidade e evolução contínua de sistemas.
         </p>
 
         <div class="terminal-note">
@@ -106,27 +104,35 @@ const apps = {
     content: `
       <div class="app-content">
         <h2>Projects</h2>
-        <p class="text-secondary">Projetos selecionados</p>
+        <p class="text-secondary">Projetos públicos que desenvolvi com o intuito de aprimorar conhecimentos e/ou ajudar outros</p>
 
         <div class="project-grid">
           <article class="project-card">
-            <div class="project-icon"><i class="bi bi-cart3"></i></div>
+            <div class="project-icon"><i class="bi bi-code-slash"></i></div>
             <div>
-              <h3>Shopping Cart</h3>
-              <p>Aplicação para gerenciamento de carrinho de supermercado.</p>
+              <h3>Experimentos</h3>
+              <p>Aplicações gerais com foco no aprimoramento de conhecimentos.
+              <a href="https://github.com/AndersonRezende/GravitacaoUniversal">GravitacaoUniversal</a>
+              <a href="https://github.com/AndersonRezende/Skirtshot_OS">Skirtshot_OS</a>
+              <a href="https://github.com/AndersonRezende/GO_Hexagonal_Architecture">GO_Hexagonal_Architecture</a>
+              </p>
               <div class="tags">
-                <span>PHP</span><span>React</span><span>PostgreSQL</span><span>Docker</span>
+                <span>PHP</span><span>Go</span><span>C</span><span>C++</span><span>Rust</span><span>Java</span>
               </div>
             </div>
           </article>
 
           <article class="project-card">
-            <div class="project-icon"><i class="bi bi-lightning-charge"></i></div>
+            <div class="project-icon"><i class="bi bi-boxes"></i></div>
             <div>
-              <h3>Go Concurrency Lab</h3>
-              <p>Experimentos com goroutines, channels, workers e cancelamento.</p>
+              <h3>Pacotes/Libs</h3>
+              <p>Bibliotecas e/ou códigos úteis.
+              <a href="https://github.com/AndersonRezende/formula-executor">formula-executor</a>,
+              <a href="https://github.com/AndersonRezende/infixa-posfixa">infixa-posfixa</a>,
+              <a href="https://github.com/AndersonRezende/Ordenacao">Ordenacao</a>.
+              </p>
               <div class="tags">
-                <span>Go</span><span>Concurrency</span><span>Channels</span>
+                <span>PHP</span><span>Java</span>
               </div>
             </div>
           </article>
@@ -135,9 +141,19 @@ const apps = {
             <div class="project-icon"><i class="bi bi-cpu"></i></div>
             <div>
               <h3>Embedded Projects</h3>
-              <p>Projetos com ESP32, displays TFT e interfaces físicas.</p>
+              <p>Projetos com ESP32, displays TFT e interfaces físicas. <a href="https://github.com/AndersonRezende/ESP32_Button_Box">ESP32_Button_Box</a></p>
               <div class="tags">
-                <span>ESP32</span><span>C++</span><span>IoT</span>
+                <span>ESP32</span><span>Arduino</span><span>C++</span><span>IoT</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-icon"><i class="bi bi-terminal"></i></div>
+            <div>
+              <h3>Automação</h3>
+              <p>Projetos de automação, como o <a href="https://github.com/AndersonRezende/LinuxPostInstall">LinuxPostInstall</a>.</p>
+              <div class="tags">
+                <span>Shell Script</span><span>Python</span><span>Linux</span>
               </div>
             </div>
           </article>
@@ -208,8 +224,7 @@ const apps = {
         </div>
 
         <p>
-          Na próxima etapa, podemos transformar esta janela em um navegador
-          interno para exibir seus repositórios e links.
+          
         </p>
 
         <button class="btn btn-dark" id="github-external">

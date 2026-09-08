@@ -264,6 +264,10 @@ body {
   background: linear-gradient(145deg, #7c5a9c, #43294f);
 }
 
+.icon-linkedin {
+  background: linear-gradient(145deg, #016599, #104968);
+}
+
 .icon-github {
   background: #171717;
 }

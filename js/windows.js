@@ -112,9 +112,9 @@ const apps = {
             <div>
               <h3>Experimentos</h3>
               <p>Aplicações gerais com foco no aprimoramento de conhecimentos.
-              <a href="https://github.com/AndersonRezende/GravitacaoUniversal">GravitacaoUniversal</a>
-              <a href="https://github.com/AndersonRezende/Skirtshot_OS">Skirtshot_OS</a>
-              <a href="https://github.com/AndersonRezende/GO_Hexagonal_Architecture">GO_Hexagonal_Architecture</a>
+              <a target="_blank" href="https://github.com/AndersonRezende/GravitacaoUniversal">GravitacaoUniversal</a>
+              <a target="_blank" href="https://github.com/AndersonRezende/Skirtshot_OS">Skirtshot_OS</a>
+              <a target="_blank" href="https://github.com/AndersonRezende/GO_Hexagonal_Architecture">GO_Hexagonal_Architecture</a>
               </p>
               <div class="tags">
                 <span>PHP</span><span>Go</span><span>C</span><span>C++</span><span>Rust</span><span>Java</span>
@@ -127,9 +127,9 @@ const apps = {
             <div>
               <h3>Pacotes/Libs</h3>
               <p>Bibliotecas e/ou códigos úteis.
-              <a href="https://github.com/AndersonRezende/formula-executor">formula-executor</a>,
-              <a href="https://github.com/AndersonRezende/infixa-posfixa">infixa-posfixa</a>,
-              <a href="https://github.com/AndersonRezende/Ordenacao">Ordenacao</a>.
+              <a target="_blank" href="https://github.com/AndersonRezende/formula-executor">formula-executor</a>,
+              <a target="_blank" href="https://github.com/AndersonRezende/infixa-posfixa">infixa-posfixa</a>,
+              <a target="_blank" href="https://github.com/AndersonRezende/Ordenacao">Ordenacao</a>.
               </p>
               <div class="tags">
                 <span>PHP</span><span>Java</span>
@@ -141,7 +141,7 @@ const apps = {
             <div class="project-icon"><i class="bi bi-cpu"></i></div>
             <div>
               <h3>Embedded Projects</h3>
-              <p>Projetos com ESP32, displays TFT e interfaces físicas. <a href="https://github.com/AndersonRezende/ESP32_Button_Box">ESP32_Button_Box</a></p>
+              <p>Projetos com ESP32, displays TFT e interfaces físicas. <a target="_blank" href="https://github.com/AndersonRezende/ESP32_Button_Box">ESP32_Button_Box</a></p>
               <div class="tags">
                 <span>ESP32</span><span>Arduino</span><span>C++</span><span>IoT</span>
               </div>
@@ -151,7 +151,7 @@ const apps = {
             <div class="project-icon"><i class="bi bi-terminal"></i></div>
             <div>
               <h3>Automação</h3>
-              <p>Projetos de automação, como o <a href="https://github.com/AndersonRezende/LinuxPostInstall">LinuxPostInstall</a>.</p>
+              <p>Projetos de automação, como o <a target="_blank" href="https://github.com/AndersonRezende/LinuxPostInstall">LinuxPostInstall</a>.</p>
               <div class="tags">
                 <span>Shell Script</span><span>Python</span><span>Linux</span>
               </div>
@@ -210,6 +210,33 @@ const apps = {
           <strong>Curriculum Vitae</strong>
           <span>PDF viewer — próxima evolução</span>
         </div>
+      </div>
+    `,
+  },
+
+  linkedin: {
+    title: "Linkedin",
+    icon: "bi-linkedin",
+    width: 720,
+    height: 460,
+    content: `
+      <div class="app-content">
+        <div class="linkedin-heading">
+          <i class="bi bi-linkedin"></i>
+          <div>
+            <h2>Linkedin</h2>
+            <p>Meu perfil</p>
+          </div>
+        </div>
+
+        <p>
+          
+        </p>
+
+        <button class="btn btn-dark" id="linkedin-external">
+          <i class="bi bi-box-arrow-up-right"></i>
+          <a target="_blank" href="https://www.linkedin.com/in/anderson-f-rezende/">Abrir Linkedin</a>
+        </button>
       </div>
     `,
   },

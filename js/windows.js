@@ -166,17 +166,23 @@ const apps = {
     title: "Terminal",
     icon: "bi-terminal-fill",
     width: 760,
-    height: 470,
+    height: 480,
     content: `
       <div class="terminal-app">
         <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ whoami</div>
         <div class="terminal-output">anderson_rezende</div>
+        
+        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ pwd</div>
+        <div class="terminal-output">/Brasil/Pernambuco/Petrolina</div>
 
-        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ echo "Backend Developer"</div>
+        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ cat stack.md</div>
         <div class="terminal-output">Backend Developer</div>
 
-        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ skills</div>
-        <div class="terminal-output">Go  PHP  PostgreSQL  Docker  Linux  Git</div>
+        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ ./skills</div>
+        <div class="terminal-output">PHP Go Rust C C++ Python Java MySql PostgreSQL Docker Linux Git</div>
+        
+        <div><span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$ locale -a</div>
+        <div class="terminal-output"> pt_BR.utf8 en_US.utf8 it_IT.utf8</div>
 
         <div class="terminal-cursor">
           <span class="prompt">anderson@portfolio</span>:<span class="path">~</span>$
